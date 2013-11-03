@@ -1,6 +1,6 @@
 {
   "name": "mongo-admin-ui",
-  "version": "0.0.1",
+  "version": "0.1.307-ce9102e",
   "description": "Administrative UI for MongoDB",
   "main": "dist/app.js",
   "scripts": {
