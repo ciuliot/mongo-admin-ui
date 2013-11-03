@@ -1,0 +1,40 @@
+{
+  "name": "mongo-admin-ui",
+  "version": "0.0.1",
+  "description": "Administrative UI for MongoDB",
+  "main": "dist/app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ciuliot/mongo-admin-ui"
+  },
+  "author": "Ixonos",
+  "license": "BSD",
+  "devDependencies": {
+    "grunt": "*",
+    "grunt-typescript": "*",
+    "grunt-contrib-copy": "*",
+    "grunt-zip": "*",
+    "grunt-contrib-clean": "*",
+    "grunt-contrib-compress": "*",
+    "grunt-bumpup": "*",
+    "grunt-contrib-yuidoc": "*"
+  },
+  "dependencies": {
+    "moment": "*",
+    "locomotive": "*",
+    "jade": "*",
+    "stylus": "*",
+    "express": "*",
+    "connect-powered-by": "*",
+    "log4js": "*",
+    "nib": "*",
+    "diveSync": "*",
+    "mongoose": "*",
+    "async": "*",
+    "underscore": "*",
+    "restify": "*"
+  }
+}
