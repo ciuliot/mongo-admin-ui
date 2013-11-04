@@ -12,7 +12,8 @@ module.exports = function (grunt) {
                 options: {
                     module: 'commonjs', //or commonjs
                     target: 'es5', //or es3
-                    base_path: 'src'
+                    base_path: 'src',
+                    noImplicitAny: true
                 }
             }
         },

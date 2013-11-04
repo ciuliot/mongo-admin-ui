@@ -4,7 +4,7 @@
   "description": "Administrative UI for MongoDB",
   "main": "dist/app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 0"
   },
   "repository": {
     "type": "git",
@@ -36,6 +36,9 @@
     "mongoose": "*",
     "async": "*",
     "underscore": "*",
-    "restify": "*"
+    "restify": "*",
+    "connect-mongodb": "~1.1.5",
+    "passport": "~0.1.17",
+    "passport-local": "~0.1.6"
   }
 }
